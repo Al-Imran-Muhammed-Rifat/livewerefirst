@@ -1,0 +1,3 @@
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/70a642cd7c.js"></script>
+
+<i class="fas fa-search"></i>
