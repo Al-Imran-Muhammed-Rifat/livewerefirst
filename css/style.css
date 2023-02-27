@@ -452,7 +452,7 @@ hr{
 
 @media (max-width:420px){
     *{
-        overflow-x: hidden;
+        
     }
     body{
         width: 100%;
