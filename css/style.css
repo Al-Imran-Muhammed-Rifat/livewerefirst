@@ -454,7 +454,6 @@ hr{
 @media (max-width:420px){
     *{
         overflow-x: hidden;
-        overflow-y: visible;
     }
     body{
         width: 100%;
@@ -511,6 +510,9 @@ hr{
     .productsection{
         margin: -80px 0px 0px 30px;
         width: 80%;
+    }
+    .productbox{
+        overflow: visible;
     }
     .aboutsection{
         width: 90%;
