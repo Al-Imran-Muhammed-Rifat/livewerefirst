@@ -513,6 +513,9 @@ hr{
     .productbox{
         overflow: visible;
     }
+    .productbox img{
+        width: 320px;
+    }
     .aboutsection{
         width: 90%;
         display: flex;
