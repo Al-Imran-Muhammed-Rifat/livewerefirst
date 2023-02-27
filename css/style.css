@@ -453,7 +453,7 @@ hr{
 @media (max-width:420px){
     *{
         overflow-x: hidden;
-    }
+    } 
     body{
         width: 100%;
         overflow-x: hidden;
@@ -509,6 +509,7 @@ hr{
     .productsection{
         margin: -80px 0px 0px 30px;
         width: 80%;
+        overflow: hidden;
     }
     .productbox{
         overflow: visible;
@@ -521,6 +522,7 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content:end;
+        overflow: hidden;
     }
     .aboutbox{
         width: 100%;
@@ -534,8 +536,8 @@ hr{
     }
     .commentbox form{
         width: 300px;
+        
     }
-    
 
 }
 
