@@ -4,10 +4,7 @@
     font-family: sans-serif;
     overflow-x: hidden;
 }
-body{
-    width: 100%;
-    overflow-x: hidden;
-}
+
 a{
     text-decoration: none;
 }
@@ -455,6 +452,14 @@ hr{
 /*mobile-responsive*/
 
 @media (max-width:420px){
+    *{
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
     .logo{
         top: 5px;
         left: 30px;
