@@ -450,13 +450,10 @@ hr{
 
 /*mobile-responsive*/
 
-@media (max-width:420px){
-    *{
-        overflow-x: hidden;
-    } 
+@media (max-width:460px){
+     
     body{
         width: 100%;
-        overflow-x: hidden;
     }
     .logo{
         top: 15px;
@@ -511,9 +508,6 @@ hr{
         padding: 10px 0px;
         width: 80%;
     }
-    .productbox{
-        overflow: visible;
-    }
     .productbox img{
         width: 320px;
     }
@@ -522,7 +516,6 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content:end;
-        overflow: hidden;
     }
     .aboutbox{
         width: 100%;
